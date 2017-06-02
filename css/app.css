@@ -68,6 +68,9 @@ body {
 .secContainer .back .centered {
   display: inline-block;
   vertical-align: middle;
+  padding: .5em 1em;
+  border: 2px solid #79A80D;
+  background: #060407;
 }
 
 .secContainer .back a {
@@ -75,13 +78,19 @@ body {
   width: 100%;
   height: 100%;
   font-size: 1.2em;
-  color: #FFF;
+  color: #EEEEEE;
 }
 
 .secContainer .about {
   padding: 2em 5em;
   text-transform: lowercase;
   font-size: 1.3em;
+}
+
+.secContainer .facebook .centered, .secContainer .twitter .centered, .secContainer .github .centered, .secContainer .behance .centered, .secContainer .email .centered {
+  padding: 0;
+  border: none;
+  background: none;
 }
 
 .secContainer .facebook {

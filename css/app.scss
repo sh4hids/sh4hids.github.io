@@ -70,13 +70,16 @@ body {
     .centered {
       display: inline-block;
       vertical-align: middle;
+      padding: .5em 1em;
+      border: 2px solid #79A80D;
+      background: $bg_Color;
     }
     a {
       display: inline-block;
       width: 100%;
       height: 100%;
       font-size: 1.2em;
-      color: #FFF;
+      color: $txt_Color;
     }
   }
 
@@ -84,6 +87,14 @@ body {
     padding: 2em 5em;
     text-transform: lowercase;
     font-size: 1.3em;
+  }
+
+  .facebook, .twitter, .github, .behance, .email {
+    .centered {
+      padding: 0;
+      border: none;
+      background: none;
+    }
   }
 
   .facebook {
