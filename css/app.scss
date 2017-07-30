@@ -43,8 +43,8 @@ body {
 .secContainer {
   position: relative;
 
-  .logo,
-  .about {
+  .about,
+  .logo {
     background: $bg_Color;
   }
 
@@ -65,8 +65,9 @@ body {
   }
 
   .front {
-    background: rgba(6,7,4,0.7);
+    background: rgba(6,7,4,0.5);
     text-align: center;
+
     .centerer {
       display: inline-block;
       height: 100%;
@@ -90,6 +91,7 @@ body {
   .back {
     opacity: 0;
     text-align: center;
+
     .centerer {
       display: inline-block;
       height: 100%;
@@ -152,14 +154,45 @@ body {
     .back {
       opacity: 1;
     }
-
   }
+
+  .projectTitle {
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    font-size: 20px;
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .projectChar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline-block;
+      margin-right: 15px;
+      &:last-child{
+        margin-right: 0;
+      }
+      a {
+        text-decoration: none;
+        img {
+          width: 30px;
+          height: auto;
+        }
+      }
+    }
+  }
+
 }
 
-.secTwo, .secThree, .secFour {
+.secFour,
+.secThree,
+.secTwo {
   .secContainer:hover {
     .front {
-      background: rgba(208,0,0,0.1);
+      background: rgba(6,7,4,0.7);
     }
   }
 }
@@ -184,8 +217,6 @@ body {
     margin: 0;
   }
 }
-
-
 @media (max-width: 767px) {
   .secContainer {
     .about {
@@ -195,7 +226,6 @@ body {
   }
 }
 @media (min-width: 991px) {
-
   .blogging,
   .logoDes,
   .typography,
