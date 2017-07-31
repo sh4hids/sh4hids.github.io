@@ -1,7 +1,5 @@
-@import url( 'https://fonts.googleapis.com/css?family=Amaranth');
-/*
-=variables
-*/
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
 $bg_Color: #060407;
 $txt_Color: #EEEEEE;
 $primary_Border: 1px solid #ada8b6;
@@ -23,7 +21,7 @@ $primary_Transition: all ease-in-out 0.3s;
 }
 
 body {
-  font-family: 'Amaranth', sans-serif;
+  font-family: 'Share Tech Mono', monospace;
   font-size: 16px;
   color: $txt_Color;
   border: $primary_Border;
@@ -32,6 +30,14 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.bordered {
+  display: inline-block;
+  width: 200px;
+  margin: 0 auto;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
 }
 
 .secOne,
@@ -157,9 +163,8 @@ body {
   }
 
   .projectTitle {
-    padding-bottom: 8px;
-    border-bottom: 1px solid rgba(255,255,255,0.3);
-    font-size: 20px;
+    font-size: 16px;
+    font-family: 'Share Tech Mono', monospace;
     a {
       text-decoration: none;
     }
