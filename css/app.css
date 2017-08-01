@@ -223,15 +223,15 @@ body {
   margin: 0;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   body {
     background-image: url("../img/BGM.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
   }
-}
-
-@media (max-width: 767px) {
+  .secContainer .front {
+    background-color: rgba(6, 4, 7, 0.7);
+  }
   .h3, h3 {
     font-size: 18px;
   }
