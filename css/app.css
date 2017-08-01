@@ -15,18 +15,27 @@
   align-items: center;
 }
 
+html::before {
+  content: ' ';
+  display: block;
+  background-image: url("../img/BG.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: -10;
+}
+
 body {
   font-family: 'Share Tech Mono', monospace;
   font-size: 16px;
   color: #EEEEEE;
   border: 1px solid #ada8b6;
-  background-image: url("../img/BG.jpg");
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .bordered {
@@ -224,11 +233,6 @@ body {
 }
 
 @media (max-width: 767px) {
-  body {
-    background-image: url("../img/BGM.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-  }
   .secContainer .front {
     background-color: rgba(6, 7, 4, 0.7);
   }
