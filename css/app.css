@@ -221,6 +221,12 @@ body {
   margin: 0;
 }
 
+@media (max-width: 480px) {
+  body {
+    background-image: url("../img/BGM.jpg");
+  }
+}
+
 @media (max-width: 767px) {
   .h3, h3 {
     font-size: 18px;
