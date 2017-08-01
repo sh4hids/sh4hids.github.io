@@ -230,13 +230,3 @@ body {
     font-size: 1em;
   }
 }
-
-@media (min-width: 991px) {
-  .blogging,
-  .logoDes,
-  .typography,
-  .webDes,
-  .webDev {
-    background: #060407;
-  }
-}
