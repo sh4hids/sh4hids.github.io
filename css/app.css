@@ -40,10 +40,10 @@ body {
 
 .bordered {
   display: inline-block;
-  width: 200px;
+  width: 190px;
   margin: 0 auto;
-  border-bottom: 1px solid white;
-  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 2px;
 }
 
 .secOne,
@@ -175,6 +175,7 @@ body {
 .secContainer .projectTitle a {
   text-decoration: none;
   transition: all ease-in-out 0.3s;
+  font-size: 1.3em;
 }
 
 .secContainer .projectTitle a:hover {
@@ -185,6 +186,7 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-top: 8px;
 }
 
 .secContainer .projectChar li {
