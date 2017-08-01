@@ -231,6 +231,8 @@ body {
 @media (max-width: 480px) {
   body {
     background-image: url("../img/BGM.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
   }
 }
 
