@@ -20,9 +20,9 @@ body {
   font-size: 16px;
   color: #EEEEEE;
   border: 1px solid #ada8b6;
-  background: url("../img/BG.jpg");
+  background-image: url("../img/BG.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
