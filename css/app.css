@@ -44,10 +44,12 @@ body {
 .secContainer {
   position: relative;
 }
+
 .secContainer .about,
 .secContainer .logo {
   background: #060407;
 }
+
 .secContainer .back,
 .secContainer .front {
   position: absolute;
@@ -58,24 +60,30 @@ body {
   padding: 2em;
   border: 1px solid #ada8b6;
   transition: all ease-in-out 0.3s;
+  text-align: center;
 }
+
 .secContainer .back img,
 .secContainer .front img {
   height: 150px;
 }
+
 .secContainer .front {
   background: rgba(6, 7, 4, 0.5);
   text-align: center;
 }
+
 .secContainer .front .centerer {
   display: inline-block;
   height: 100%;
   vertical-align: middle;
 }
+
 .secContainer .front .centered {
   display: inline-block;
   vertical-align: middle;
 }
+
 .secContainer .front a {
   display: inline-block;
   width: 100%;
@@ -83,19 +91,23 @@ body {
   font-size: 1.5em;
   color: #EEEEEE;
 }
+
 .secContainer .back {
   opacity: 0;
   text-align: center;
 }
+
 .secContainer .back .centerer {
   display: inline-block;
   height: 100%;
   vertical-align: middle;
 }
+
 .secContainer .back .centered {
   display: inline-block;
   vertical-align: middle;
 }
+
 .secContainer .back a {
   display: inline-block;
   width: 100%;
@@ -103,11 +115,13 @@ body {
   font-size: 1.5em;
   color: #EEEEEE;
 }
+
 .secContainer .about {
   padding: 2em 5em;
   text-transform: lowercase;
   font-size: 1.3em;
 }
+
 .secContainer .behance .centered,
 .secContainer .email .centered,
 .secContainer .facebook .centered,
@@ -117,46 +131,64 @@ body {
   border: none;
   background: none;
 }
+
 .secContainer .facebook {
   background: #3b5998;
 }
+
 .secContainer .twitter {
   background: #00b6f1;
 }
+
 .secContainer .github {
   background: #333333;
 }
+
 .secContainer .behance {
   background: #1769ff;
 }
+
 .secContainer .email {
   background: #ea4335;
 }
+
 .secContainer:hover .back {
   opacity: 1;
 }
+
 .secContainer .projectTitle {
   font-size: 16px;
   font-family: 'Share Tech Mono', monospace;
 }
+
 .secContainer .projectTitle a {
   text-decoration: none;
+  transition: all ease-in-out 0.3s;
 }
+
+.secContainer .projectTitle a:hover {
+  color: #A2D729;
+}
+
 .secContainer .projectChar {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
 .secContainer .projectChar li {
   display: inline-block;
   margin-right: 15px;
 }
+
 .secContainer .projectChar li:last-child {
   margin-right: 0;
 }
+
 .secContainer .projectChar li a {
   text-decoration: none;
 }
+
 .secContainer .projectChar li a img {
   width: 30px;
   height: auto;
@@ -171,6 +203,7 @@ body {
 .secFour {
   height: 200px;
 }
+
 .secFour .back,
 .secFour .front {
   height: 200px;
@@ -182,17 +215,22 @@ body {
   width: 100%;
   background: rgba(6, 7, 4, 0.7);
 }
+
 .secFive p {
   padding: 0;
   margin: 0;
 }
 
 @media (max-width: 767px) {
+  .h3, h3 {
+    font-size: 18px;
+  }
   .secContainer .about {
     padding: 2em;
     font-size: 1em;
   }
 }
+
 @media (min-width: 991px) {
   .blogging,
   .logoDes,

@@ -64,7 +64,7 @@ body {
     padding: 2em;
     border: $primary_Border;
     transition: $primary_Transition;
-
+    text-align: center;
     img {
       height: 150px;
     }
@@ -167,6 +167,10 @@ body {
     font-family: 'Share Tech Mono', monospace;
     a {
       text-decoration: none;
+      transition: $primary_Transition;
+      &:hover {
+        color: #A2D729;
+      }
     }
   }
 
@@ -223,6 +227,9 @@ body {
   }
 }
 @media (max-width: 767px) {
+  .h3, h3 {
+    font-size: 18px;
+  }
   .secContainer {
     .about {
       padding: 2em;
